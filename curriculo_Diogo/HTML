@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favincon_curriculo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Currículo - Diogo Vasconcelos</title>
+</head>
+
+<body>
+    <nav id="menuDiogo" class="fixed-top">
+        <div class="d-flex justify-content-center">
+            <a class="menuDiogo mx-2" href="#apresentacao">Diogo Vasconcelos</a>
+            <a class="menuDiogo mx-2" href="#sobre">Sobre</a>
+            <a class="menuDiogo mx-2" href="#formacao">Formação Acadêmica
+            </a>
+            <a class="menuDiogo mx-2" href="#experiencia">Experiência Profissional</a>
+            <a class="menuDiogo mx-2" href="#habilidades">Habilidades</a>
+            <a class="menuDiogo mx-2" href="#contato">Contato</a>
+            <a class="menuDiogo mx-2" href="#endereco">Endereço</a>
+        </div>
+    </nav>
+    <main class="container">
+        <div id="apresentacao" class="row text-center align-items-center">
+            <div class="col-4">
+                <img src="img/perfil.jpg" alt="Foto de Diogo Vasconcelos" width="250px" title="Diogo Vasconcelos">
+            </div>
+            <div class="col-7">
+                <h1>Diogo Sant Ana Vasconcelos</h1>
+                <h3>Analista e Desenvolvedor de Sistemas</h3>
+            </div>
+        </div>
+        <div class="card hrBcg my-2"></div>
+        <div id="sobre" class="container">
+            <div>
+                <h2 class="bordaSubTitulo">Sobre</h2>
+            </div>
+            <div class="container">
+                <p class="justificado">Profissional em transição de carreira, migrando da área da Educação para a
+                    Tecnologia da Informação, com foco em Análise e Desenvolvimento de Sistemas (ADS).
+                    Sou movido por desafios e pela busca constante por conhecimento, características
+                    que me impulsionaram a mergulhar no universo da tecnologia.
+                </p>
+                <p>
+                    <b>Contato:</b><br>
+                    <span class="tab">
+                        <b>- E-mail:</b> <a href="mailto:dsvasconcelos78@gmail.com">dsvasconcelos78@gmail.com</a><br>
+                    </span>
+                    <span class="tab">
+                        <b>- Telefone:</b> <a href="tel:+5581988082025">+55 81 98808-2025</a>
+                    </span>
+
+                </p>
+                
+            </div>
+        </div>
+        <div class="card hrBcg my-2"></div>
+        <div id="formacao" class="container">
+            <h2>Formação</h2>
+            <div class="container">
+                <ol>
+                    <li class="mt-3"><b>Licenciatura em Biologia</b></li>
+                    <dd class="my-0"><b>Universidade:</b> FUNESO</dd>
+                    </dd>
+
+                    <li class="mt-3"><b>Análise e Desenvolvimento de Sistema</b></li>
+                    <dd class="my-0"><b>Universidade:</b> Faculdade Senac Pernambuco</dd>
+                    </dd>
+
+                    <li class="mt-3"><b>Pós graduação Gestão Escolar</b></li>
+                    <dd class="my-0"><b>Universidade:</b> UNINASSAU</dd>
+                    </dd>
+                </ol>
+            </div>
+        </div>
+        <div class="card hrBcg my-2"></div>
+        <div id="experiencia" class="container">
+            <h2>Experiência Profissional</h2>
+            <div class="container">
+                <table class="table table-striped table-hover   table-sm table-responsive">
+                    <tr class="text-center">
+                        <th width="10%">Período</th>
+                        <th>Instituição</th>
+                        <th width="20%">Cargo</th>
+                        <th>Descrição</th>
+                    </tr>
+                    <tr>
+                        <td class="text-center">2015 - Atual</td>
+                        <td>Governo do Estado de Pernambuco</td>
+                        <td>Professor de Ciências </td>
+                        <td>Ensinamentos em sala de aula</td>
+                    </tr>
+                  
+                    <tr>
+                        <td class="text-center">2023 - Atual</td>
+                        <td>Governo do Estado de Pernambuco</td>
+                        <td>Professor de Robótica </td>
+                        <td>Ensinamentos em sala de aula</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="card hrBcg my-2"></div>
+        <div id="habilidades" class="container">
+            <h2>Habilidades</h2>
+            <div class="container">
+                <ul>
+                    <li>Trabalho em equipe</li>
+                    <li>Capacidade analítica</li>
+                    <li>Capacidade de adaptação</li>
+                    <li>Resolução de problemas</li>
+                   
+                </ul>
+                <!--  
+                <div class="row">
+                    <div class="card mx-2" style="width: 18rem;">
+                        <img src="imgs/gitHub.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card’s content.</p>
+                        </div>
+                    </div>
+                    <div class="card mx-2" style="width: 18rem;">
+                        <img src="imgs/gitHub.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card’s content.</p>
+                        </div>
+                    </div>
+                    <div class="card mx-2" style="width: 18rem;">
+                        <img src="imgs/gitHub.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card’s content.</p>
+                        </div>
+                    </div>
+                    <div class="card mx-2" style="width: 18rem;">
+                        <img src="imgs/gitHub.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card’s content.</p>
+                        </div>
+                    </div>
+                </div>
+                -->
+            </div>
+        </div>
+        <div class="card hrBcg my-2"></div>
+        <div id="contato" class="container">
+            <h2>Contato</h2>
+            <div class="container">
+                <p class="justificado">Para entrar em contato, preencha o formulário abaixo e clique em enviar.
+                </p>
+                <form action="" class="row g-3">
+                    <div class="col-md-4">
+                        <label for="inputNome" class="form-label">Nome*</label>
+                        <input type="text" class="form-control" id="inputNome" placeholder="Digite seu nome" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputEmail" class="form-label">E-mail*</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Digite seu e-mail"
+                            required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputTelefone" class="form-label">Telefone</label>
+                        <input type="telefone" class="form-control" id="inputTelefone"
+                            placeholder="Digite seu telefone">
+                    </div>
+                    <div class="col-md-4">
+                        <span>Preferência de Conversa</span><br>
+                        <input class="form-radio" type="radio" name="preferencia" id="preferencia1" value="presencial" checked>
+                        <label for="preferencia1">Presencial</label>
+                        <input type="radio" name="preferencia" id="preferencia2" value="remoto">
+                        <label for="preferencia2">Remoto</label>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="plataforma">Caso remoto, escolha uma plataforma:</label> <br>
+                        <select class="form-select" id="plataforma" name="plataforma">
+                            <option value="googlemeet">Google Meet</option>
+                            <option value="teams">Teams</option>                            
+                            <option value="telegram">Telegram</option>
+                            <option value="whatsapp" selected>WhatsApp</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="horario">Informe uma Data/Hora Desejada:</label> <br>
+                        <input type="datetime-local" class="form-control" name="horario" id="horario">
+                    </div>
+                    <div class="col-md-12">
+                        <label for="inputMensagem" class="form-label">Mensagem</label>
+                        <textarea class="form-control" id="inputMensagem" rows="3"
+                            placeholder="Conta tua história..."></textarea>
+                    </div>
+                    <div class="col-12 text-center">
+                        <button type="reset" class="btn formulario">Cancelar</button>
+                        <button type="submit" class="btn formulario">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="card hrBcg my-2"></div>
+        <div id="endereco" class="container">
+            <h2>Endereço</h2>
+            <div class="container text-center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.1059170697526!2d-34.90375632544457!3d-7.88398617841597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab15016e7f9369%3A0x17844b3f5ff35876!2sR.%20Santa%20Maria%20-%20Igarassu%2C%20PE%2C%2053600-000!5e0!3m2!1spt-BR!2sbr!4v1747011395893!5m2!1spt-BR!2sbr" width="1000" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </main>
+</body>
+<footer>
+    <p>Desenvolvido por Diogo Sant Ana Vasconcelos - 2025</p>
+</footer>
+
+</html>
